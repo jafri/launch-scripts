@@ -1,4 +1,4 @@
-
+# Usage: cleos get table [OPTIONS] contract scope table
 
 cleos get table eosio eosio producerinfo | jq ".rows[0].owner"
 cleos get table eosio eosio producerinfo | jq ".rows[0].total_votes"
